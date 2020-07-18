@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "SF-Black";
+    src: url("../assets/fonts/SF-Pro-Rounded-Black.otf");
+}
+@font-face {
+    font-family: "SF-Bold";
+    src: url("../assets/fonts/SF-Pro-Rounded-Bold.otf");
+}
+@font-face {
+    font-family: "SF-Heavy";
+    src: url("../assets/fonts/SF-Pro-Rounded-Heavy.otf");
+}
+@font-face {
+    font-family: "SF-Light";
+    src: url("../assets/fonts/SF-Pro-Rounded-Light.otf");
+}
+@font-face {
+    font-family: "SF-Medium";
+    src: url("../assets/fonts/SF-Pro-Rounded-Medium.otf");
+}
+@font-face {
+    font-family: "SF-Regular";
+    src: url("../assets/fonts/SF-Pro-Rounded-Regular.otf");
+}
+@font-face {
+    font-family: "SF-Semibold";
+    src: url("../assets/fonts/SF-Pro-Rounded-Semibold.otf");
+}
+@font-face {
+    font-family: "SF-Thin";
+    src: url("../assets/fonts/SF-Pro-Rounded-Thin.otf");
+}
+@font-face {
+    font-family: "SF-Ultralight";
+    src: url("../assets/fonts/SF-Pro-Rounded-Ultralight.otf");
+}
+
+// Font awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.pad-lr-large {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.btn-blue {
+    max-height: 33px;
+    font-size: 0.77rem;
+    text-transform: uppercase;
+    background-color: #0054fe;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.btn-blue:hover {
+    background-color: #0054fe;
+}
+.sf-green {
+    color: #14b864;
+}
+.pagination-item {
+    margin: 3px;
+}
+.pagination-link,
+.pagination-link--active {
+    border: 1px solid #ccc;
+    border-radius: 0.1em;
+}
+.pagination-link button {
+    border: 1px solid #ccc;
+}
