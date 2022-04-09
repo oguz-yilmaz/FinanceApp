@@ -25,7 +25,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "moment": "^2.27.0",
+        "moment": "^2.29.2",
         "vue-loading-overlay": "^3.3.2",
         "vue-plain-pagination": "^0.3.0",
         "vue-router": "^3.3.4",
